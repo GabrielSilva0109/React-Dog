@@ -3,7 +3,7 @@ import React from 'react'
 import Header from '../Componets/Header.js'
 import Footer from '../Componets/Footer.js'
 
-const App = () => {
+function App(){
   return(
     <div>
       <Header />
