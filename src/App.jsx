@@ -1,16 +1,7 @@
-/* eslint-disable no-unused-vars */
-import React from 'react'
-import Header from '../Componets/Header.js'
-import Footer from '../Componets/Footer.js'
+import React from 'react';
 
-function App(){
-  return(
-    <div>
-      <Header />
-      <Footer /> 
-  </div> 
-  )
-   
-}
+const App = () => {
+  return <div>Dogs</div>;
+};
 
-export default App
+export default App;

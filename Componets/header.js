@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './header.modules.css'
-const Header = () => {
+
+function Header(){
     return (
         <div>
             Header
