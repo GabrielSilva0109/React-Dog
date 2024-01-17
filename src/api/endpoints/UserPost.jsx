@@ -27,14 +27,32 @@ const UserPost =  () =>{
                 return json
         })
     }
+
+    
     return (
         <form onSubmit={handleSubmit}>
-            <input type='text' placeholder='Username' value={username} onChange={({target}) => setUsername(target.value)}/>
-            <input type='text' placeholder='Email' value={email} onChange={({target}) => setEmail(target.value)}/>
-            <input type='text' placeholder='Password' value={password} onChange={({target}) => setPassword(target.value)}/>
-            <button >Enviar</button>
+          <input
+            type="text"
+            placeholder="Username"
+            value={username}
+            onChange={({ target }) => setUsername(target.value)}
+          />
+          <input
+            type="text"
+            placeholder="Password"
+            value={password}
+            onChange={({ target }) => setPassword(target.value)}
+          />
+          <input
+            type="text"
+            placeholder="Email"
+            value={email}
+            onChange={({ target }) => setEmail(target.value)}
+          />
+          <button>Enviar</button>
         </form>
-    )
+      )
+    
 }
 
 
