@@ -1,11 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
+import './App.css'
+import Api from './api/Api'
 
 const App = () => {
   
 
   return (
-    <div>React</div>
+    <div><Api /></div>
   )
 }
 
