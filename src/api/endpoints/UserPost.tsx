@@ -17,12 +17,14 @@ const UserPost =  () =>{
                 email,
                 password
             })
-        }).then(response => {
-            console.log(response)
-            return response.json()
-        }).then(json => {
-            console.log(json)
-            return json
+        })
+            .then(response => {
+                console.log(response)
+                return response.json()
+        })
+            .then(json => {
+                console.log(json)
+                return json
         })
     }
     return (
@@ -30,7 +32,7 @@ const UserPost =  () =>{
             <input type='text' placeholder='Username' value={username} onChange={({target}) => setUsername(target.value)}/>
             <input type='text' placeholder='Email' value={email} onChange={({target}) => setEmail(target.value)}/>
             <input type='text' placeholder='Password' value={password} onChange={({target}) => setPassword(target.value)}/>
-            <button>Enviar</button>
+            <button >Enviar</button>
         </form>
     )
 }
