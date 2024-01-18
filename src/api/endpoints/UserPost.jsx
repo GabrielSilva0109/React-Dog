@@ -33,7 +33,7 @@ const UserPost =  () =>{
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            placeholder="Username"
+            placeholder="Usernae"
             value={username}
             onChange={({ target }) => setUsername(target.value)}
           />
