@@ -49,7 +49,7 @@ const UserPost =  () =>{
             value={email}
             onChange={({ target }) => setEmail(target.value)}
           />
-          <button>Enviar</button>
+          <button>Enviar Login</button>
         </form>
       )
     
