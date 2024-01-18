@@ -33,7 +33,7 @@ const UserPost =  () =>{
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            placeholder="Usernae"
+            placeholder="User"
             value={username}
             onChange={({ target }) => setUsername(target.value)}
           />
@@ -45,7 +45,7 @@ const UserPost =  () =>{
           />
           <input
             type="text"
-            placeholder="Email"
+            placeholder="E-mail"
             value={email}
             onChange={({ target }) => setEmail(target.value)}
           />
